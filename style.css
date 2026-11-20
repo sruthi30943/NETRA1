@@ -1,0 +1,93 @@
+/* =====Global Reset======= */
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: rgba(2, 38, 61, 0.471);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 100vh;
+}
+
+button{
+    font-family: inherit;
+    background: rgb(32, 183, 248);
+    color: rgb(206, 235, 255);
+    font-weight: bold;
+    border: 0;
+    border-radius: 8px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.topbar{
+    min-height: 82px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    gap: 60px;
+    padding: 15px 4%;
+    background: rgb(2, 25, 94);
+    border-bottom: 1px solid rgb(176, 221, 239);
+}
+.brand{
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+.brand-logo{
+    background: rgb(0, 95, 184);
+    border-radius: 10px;
+    padding: 12px 16px;
+    font-weight: bold;
+    font-size: 23px;
+}
+.brand h1{
+    color: rgb(232, 240, 254);
+    letter-spacing: 3px;
+
+}
+.brand p{
+    color: rgb(47, 215, 252);
+    font-size: 9px;
+}
+
+nav {
+    display: flex;
+    gap: 20px;
+}
+nav a{
+    color: aliceblue;
+    font-size: 13px;
+    text-decoration: none;
+
+}
+nav a:hover{
+    color: aqua;
+
+}
+.header-right{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    color: rgb(3, 196, 131);
+    font-size: 11px;
+}
+.online-dot{
+   width: 5px;
+   height: 5px;
+   background:rgb(3, 196, 131);
+  border-radius: 50%;
+}
+#clock{
+    color: beige;
+    font-family: monospace;
+    margin-left: 10px;
+}
