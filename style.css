@@ -87,7 +87,7 @@ nav a:hover{
   border-radius: 50%;
 }
 #clock{
-    color: beige;
-    font-family: monospace;
+    color: rgb(255, 255, 119);
+    font-family:inherit;
     margin-left: 10px;
 }
